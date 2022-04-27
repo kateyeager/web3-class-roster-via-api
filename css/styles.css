@@ -1,15 +1,18 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
 
 
 /* My Styles */
 
-/* body {
-    font-family: 'Barlow Semi Condensed', sans-serif;
+body {
+    font-family: 'Montserrat', sans-serif;
     font-size: 100%;
     padding: 1em;
     max-width: 1280px;
     margin: 0 auto;
     
-} */
+}
 
 .gallery {
     display: grid;
@@ -72,6 +75,7 @@ figure:hover img {
 figcaption {
     text-align: right;
     margin-top: 3px;
+    margin-bottom: 4px;
     border-top: 1px solid rgba(255,255,255,.8);
     padding-top: 5px;
     color: rgba(255,255,255,.8);
