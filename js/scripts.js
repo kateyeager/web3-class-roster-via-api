@@ -1,7 +1,5 @@
-// My Scripts
 
-
-// Data source from Webflow
+// Data source
 const url = "https://v1.nocodeapi.com/pmanikoth/webflow/wtzODovSIJsRXhZg";
 
 // Get data
@@ -21,12 +19,11 @@ fetch(url)
       // template
       const template = `
           <figure>
-            <figcaption>Student</figcaption>
+            <figcaption>${student.name}</figcaption>
             <img src="${student.image.url}" alt="Placeholder" />
           </figure>
        `;
 
-      // insert EACH `student` record into container
       gallery.insertAdjacentHTML("afterbegin", template);
     });
   });
